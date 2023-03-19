@@ -1,3 +1,5 @@
+import h from "../jsx.ts"
+
 export default function(){
     return (<html>
         <head>
