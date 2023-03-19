@@ -4,6 +4,6 @@ import indexPage from "./components/index.tsx";
 
 const app = new hono.Hono()
 
-app.get('/', (c) => c.html(indexPage))
+app.get('/', (c) => c.html(indexPage()))
 
 serve(app.fetch)
