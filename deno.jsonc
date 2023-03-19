@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
-        //"jsx": "react-jsx",
-        //"jsxFragmentFactory": "Fragment",
-        //"jsxImportSource": "https://deno.land/x/hono/middleware.ts"
+        "jsx": "react-jsx",
+        "jsxFragmentFactory": "Fragment",
+        "jsxImportSource": "https://deno.land/x/hono/middleware.ts"
     }
 }
