@@ -1,5 +1,6 @@
 import { serve } from 'https://deno.land/std/http/server.ts'
-import * as hono from "https://deno.land/x/hono@v3.1.0/mod.ts";
+import * as hono from "npm:hono";
+import { jsx } from "npm:hono/jsx"
 
 const app = new hono.Hono()
 
