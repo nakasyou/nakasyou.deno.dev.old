@@ -2,6 +2,6 @@
     "compilerOptions": {
         "jsx": "react-jsx",
         "jsxFragmentFactory": "Fragment",
-        "jsxImportSource": "npm:hono/jsx"
+        "jsxImportSource": "https://deno.land/x/hono/middleware.ts"
     }
 }
